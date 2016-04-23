@@ -30,7 +30,7 @@ namespace CrossPlatformInfo.Example
             WriteLine(system.OSInfo.ToString());
             WriteLine(system.OSName);
             WriteLine(system.OSBit);
-            WriteLine(system.ProcessBit);
+            WriteLine(runtime.RuntimeDirectory);
         }
     }
 }

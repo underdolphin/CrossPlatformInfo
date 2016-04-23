@@ -66,5 +66,13 @@ namespace CrossPlatformInfo
                 return RuntimeEnvironment.GetSystemVersion();
             }
         }
+
+        public string RuntimeDirectory
+        {
+            get
+            {
+                return RuntimeEnvironment.GetRuntimeDirectory();
+            }
+        }
     }
 }
